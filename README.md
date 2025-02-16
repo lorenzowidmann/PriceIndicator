@@ -1,14 +1,15 @@
-<b><big><font size="+5">PriceIndicator telegram BOT</b></big></font>
+<b><big><font size="+5">PriceIndicator Telegram Bot</font></big></b>
 
-This is a python script that run a Telegram BOT. You can use this following BOT to search the average price of sold eBay items and the current average price of the items on Subito.it. 
+This is a Python script that runs a Telegram bot. You can use this bot to search for the average price of sold items on eBay and the current average price of items on Subito.it.
 
-(WARNING: on eBay the average is based only on the items sold with an auction)
-You can use the following commands on Telegram: 
+<b>Note:</b> On eBay, the average price is based only on items sold through auctions.
 
-/config: return the current items added to the config file .ini that is present in the folder (to add new times to the file, you need to use the main.py file)
+You can use the following commands on Telegram:
 
-/subito: return the average price on subito.it of all the items that you added to the config file 
+<b>/config</b>: Returns the current items listed in the configuration file (.ini) located in the folder. To add new items to the file, you need to use the main.py script.
 
-/ebay: same as /subito but for eBay
+<b>/subito</b>: Provides the average price on Subito.it for all the items you have added to the configuration file.
 
-/search: you need to input the name of the items that you want to search and the word that you want to remove from the search, and the scripts return the average on eBay and on subito of the items.
+<b>/ebay</b>: Similar to /subito, but for eBay.
+
+<b>/search</b>: Allows you to input the name of the items you want to search and specify any words you want to exclude from the search. The script will return the average price on both eBay and Subito.it for the specified items.
